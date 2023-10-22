@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "chrome-launcher": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "lighthouse": "^11.2.0",
+    "puppeteer": "^21.3.8"
+  }
+}
