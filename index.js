@@ -58,7 +58,6 @@ const chrome = await chromeLauncher.launch({chromeFlags: ['--headless']});
 const options = {logLevel: 'info', output: 'html', onlyCategories: ['performance'], port: chrome.port};
 const runnerResult = await lighthouse('https://mahindra.com', options);
 
-// `.report` is the HTML report as a string
 const reportHtml = runnerResult.report;
 fs.writeFileSync('lhreports.html', reportHtml);
 
