@@ -61,7 +61,6 @@ const runnerResult = await lighthouse('https://mahindra.com', options);
 const reportHtml = runnerResult.report;
 fs.writeFileSync('lhreports.html', reportHtml);
 
-// `.lhr` is the Lighthouse Result as a JS object
 console.log('Report is done for', runnerResult.lhr.finalDisplayedUrl);
 console.log('Performance score was', runnerResult.lhr.categories.performance.score * 100);
 
