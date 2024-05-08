@@ -1,2 +1,2 @@
 # lighthouse
-# demo d
+# demo
